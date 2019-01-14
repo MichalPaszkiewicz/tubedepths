@@ -1,0 +1,155 @@
+Bakerloo line
+Baker Street 30.4
+Charing Cross 30.68
+Edgware Road (Bak) 30.96
+Elephant & Castle 27.71
+Embankment 29.78
+Kilburn Park 28.9
+Lambeth North 26.95
+Maida Vale 30.28
+Marylebone 30.23
+Oxford Circus 29.44
+Paddington 31.19
+Piccadilly Circus 28.93
+Regent's Park 28.91
+Warwick Avenue 30.1
+Waterloo 29.9
+
+Central line
+Bank 30.99
+Bethnal Green 28.2
+Bond Street 31.48
+Chancery Lane 30.19
+Holborn 29.52
+Holland Park 29.11
+Lancaster Gate 30.4
+Liverpool Street 28.41
+Marble Arch 31.69
+Mile End 28.41
+Notting Hill Gate 29.55
+Oxford Circus 31
+Queensway 29.73
+Shepherd's Bush (Cen) 25.13
+St Paul's 26.56
+
+Jubilee line
+Baker Street 26.48
+Bermondsey 25.84
+Bond Street 25.5
+Canada Water 25.94
+Canary Wharf 25.36
+Green Park 26.04
+London Bridge 26.44
+North Greenwich 26.85
+Southwark 25.82
+St. John's Wood 27.09
+Swiss Cottage 26.02
+Waterloo 25.83
+Westminster 26.67
+
+Northern line
+Angel 25.89
+Archway 26.67
+Balham 25.71
+Bank 28.8
+Belsize Park 29.26
+Borough 27.62
+Camden Town 28.64
+Chalk Farm 28.83
+Charing Cross 29.26
+Clapham Common 27.8
+Clapham North 25.89
+Clapham South 27.06
+Colliers Wood 26.41
+Elephant & Castle 28.35
+Embankment 28.2
+Euston 27.58
+Goodge Street 28.57
+Hampstead 29.11
+Highgate 25.35
+Kennington 28.61
+Kentish Town 27.67
+King's Cross St. Pancras 26.98
+Leicester Square 28.92
+London Bridge 27.15
+Moorgate 28.24
+Mornington Crescent 28.38
+Old Street 28.02
+Oval 27.26
+South Wimbledon 26.59
+Stockwell 25.02
+Tooting Bec 27.84
+Tooting Broadway 27.71
+Tottenham Court Road 29.25
+Warren Street 27.87
+Waterloo 28.76
+
+Piccadilly line
+
+Arsenal 26.28
+Bounds Green 24.91
+Caledonian Road 27.61
+Covent Garden 28.79
+Earl's Court 26.5
+Finsbury Park 26.08
+Gloucester Road 26.95
+Green Park 27.33
+Hatton Cross 22.36
+Heathrow Terminal 4 20.85
+Heathrow Terminal 5 20.97
+Heathrow Terminals 123 21.93
+Holborn 28.75
+Holloway Road 26.79
+Hyde Park Corner 26.14
+King's Cross St. Pancras 27.45
+Knightsbridge 27.21
+Leicester Square 28.12
+Manor House 26.05
+Piccadilly Circus 26.54
+Russell Square 28.13
+South Kensington 27.26
+Turnpike Lane 25.33
+Wood Green 26.71
+
+Sub surface lines
+
+Baker Street 23.59
+Bank 28.03
+Bayswater 22.61
+Blackfriars 23.27
+Cannon Street 25.97
+Embankment 25.71
+Euston Square 24.88
+Gloucester Road 22.46
+Great Portland Street 23.14
+King's Cross St. Pancras 24.03
+Mansion House 24.93
+Mile End 27.4
+Notting Hill Gate 22.9
+Paddington 22.03
+St. James's Park 25.35
+Temple 25.46
+Tower Hill 24.72
+Victoria 23.24
+
+Victoria line
+Blackhorse Road 23.5
+Brixton 23.79
+Euston 27.31
+Finsbury Park 27.04
+Green Park 27.61
+Highbury & Islington 24.25
+King's Cross St. Pancras 25.9
+Oxford Circus 27.99
+Pimlico 26.19
+Seven Sisters 23.44
+Stockwell 25.85
+Tottenham Hale 22.63
+Vauxhall 25.65
+Victoria 26.28
+Walthamstow Central 22.86
+Warren Street 25.59
+
+Waterloo & City line
+Bank 27.3
+Waterloo 22.95

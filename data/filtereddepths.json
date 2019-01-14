@@ -1,0 +1,395 @@
+[
+    {
+        "name": "Baker Street ",
+        "groundLevel": 27,
+        "stationLines": [
+            {
+                "name": "Bakerloo",
+                "northOrEastbound": 8.299999999999997,
+                "southOrWestbound": 5.099999999999994
+            },
+            {
+                "name": "Hammersmith & City",
+                "northOrEastbound": 18.799999999999997,
+                "southOrWestbound": 18.900000000000006
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 4.299999999999997,
+                "southOrWestbound": 7.400000000000006
+            },
+            {
+                "name": "Metropolitan",
+                "northOrEastbound": 20.5,
+                "southOrWestbound": 20.5
+            }
+        ]
+    },
+    {
+        "name": "Bermondsey ",
+        "groundLevel": 2,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -12.5,
+                "southOrWestbound": -12.5
+            }
+        ]
+    },
+    {
+        "name": "Bond Street ",
+        "groundLevel": 22,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 1,
+                "southOrWestbound": 1
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -9,
+                "southOrWestbound": -9
+            }
+        ]
+    },
+    {
+        "name": "Canada Water ",
+        "groundLevel": 5,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13.299999999999997,
+                "southOrWestbound": -13.299999999999997
+            }
+        ]
+    },
+    {
+        "name": "Canary Wharf ",
+        "groundLevel": 3,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -15.599999999999994,
+                "southOrWestbound": -15.599999999999994
+            }
+        ]
+    },
+    {
+        "name": "Canons Park ",
+        "groundLevel": 65,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 70.1,
+                "southOrWestbound": 70.1
+            }
+        ]
+    },
+    {
+        "name": "Charing Cross ",
+        "groundLevel": 12,
+        "stationLines": [
+            {
+                "name": "Bakerloo",
+                "northOrEastbound": -11.799999999999997,
+                "southOrWestbound": -11.799999999999997
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -18.099999999999994,
+                "southOrWestbound": -18.099999999999994
+            },
+            {
+                "name": "Northern",
+                "northOrEastbound": -8.400000000000006,
+                "southOrWestbound": -8.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "Dollis Hill ",
+        "groundLevel": 37,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 39.400000000000006,
+                "southOrWestbound": 39.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "\"Edgware Road (Circle",
+        "groundLevel": null,
+        "stationLines": [
+            {
+                "name": "Bakerloo",
+                "northOrEastbound": null,
+                "southOrWestbound": -70
+            },
+            {
+                "name": "Hammersmith & City",
+                "northOrEastbound": 24.799999999999997,
+                "southOrWestbound": 24.799999999999997
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 24.799999999999997,
+                "southOrWestbound": 24.799999999999997
+            }
+        ]
+    },
+    {
+        "name": "Finchley Road ",
+        "groundLevel": 52,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 48.69999999999999,
+                "southOrWestbound": 48.69999999999999
+            }
+        ]
+    },
+    {
+        "name": "Green Park ",
+        "groundLevel": 18,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13,
+                "southOrWestbound": -13
+            },
+            {
+                "name": "Piccadilly",
+                "northOrEastbound": -8.5,
+                "southOrWestbound": -8.5
+            },
+            {
+                "name": "Victoria",
+                "northOrEastbound": -5.5,
+                "southOrWestbound": -4.700000000000003
+            }
+        ]
+    },
+    {
+        "name": "Kilburn ",
+        "groundLevel": 45,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 52.19999999999999,
+                "southOrWestbound": 52.19999999999999
+            }
+        ]
+    },
+    {
+        "name": "Kingsbury ",
+        "groundLevel": 43,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 38.30000000000001,
+                "southOrWestbound": 38.30000000000001
+            }
+        ]
+    },
+    {
+        "name": "London Bridge ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -23.200000000000003,
+                "southOrWestbound": -23.200000000000003
+            },
+            {
+                "name": "Northern",
+                "northOrEastbound": -19.599999999999994,
+                "southOrWestbound": -19.599999999999994
+            }
+        ]
+    },
+    {
+        "name": "Neasden ",
+        "groundLevel": 38,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 32.19999999999999,
+                "southOrWestbound": 32.19999999999999
+            }
+        ]
+    },
+    {
+        "name": "North Greenwich ",
+        "groundLevel": 2,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13.5,
+                "southOrWestbound": -13.5
+            }
+        ]
+    },
+    {
+        "name": "Queensbury ",
+        "groundLevel": 48,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 51.19999999999999,
+                "southOrWestbound": 51.19999999999999
+            }
+        ]
+    },
+    {
+        "name": "Southwark ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -20.5,
+                "southOrWestbound": -20.5
+            }
+        ]
+    },
+    {
+        "name": "St John's Wood ",
+        "groundLevel": 49,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 31.69999999999999,
+                "southOrWestbound": 31.19999999999999
+            }
+        ]
+    },
+    {
+        "name": "Stanmore ",
+        "groundLevel": 85,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 76.80000000000001,
+                "southOrWestbound": 76.80000000000001
+            }
+        ]
+    },
+    {
+        "name": "Stratford ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 7.200000000000003,
+                "southOrWestbound": 7.200000000000003
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 4,
+                "southOrWestbound": 4
+            }
+        ]
+    },
+    {
+        "name": "Swiss Cottage ",
+        "groundLevel": 57,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 40.099999999999994,
+                "southOrWestbound": 40.099999999999994
+            }
+        ]
+    },
+    {
+        "name": "Waterloo ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Bakerloo",
+                "northOrEastbound": -14.900000000000006,
+                "southOrWestbound": -11.799999999999997
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -26,
+                "southOrWestbound": -26
+            },
+            {
+                "name": "Northern",
+                "northOrEastbound": -17.200000000000003,
+                "southOrWestbound": -17.200000000000003
+            },
+            {
+                "name": "Waterloo & City",
+                "northOrEastbound": -1.7999999999999972,
+                "southOrWestbound": -1.7999999999999972
+            }
+        ]
+    },
+    {
+        "name": "Wembley Park ",
+        "groundLevel": 41,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 36.69999999999999,
+                "southOrWestbound": 36.69999999999999
+            }
+        ]
+    },
+    {
+        "name": "West Ham ",
+        "groundLevel": 1,
+        "stationLines": [
+            {
+                "name": "District",
+                "northOrEastbound": 4.700000000000003,
+                "southOrWestbound": 4.700000000000003
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 1.2000000000000028,
+                "southOrWestbound": 1.2000000000000028
+            }
+        ]
+    },
+    {
+        "name": "West Hampstead ",
+        "groundLevel": 56,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 50.5,
+                "southOrWestbound": 50.5
+            }
+        ]
+    },
+    {
+        "name": "Westminster ",
+        "groundLevel": 6,
+        "stationLines": [
+            {
+                "name": "District",
+                "northOrEastbound": -1,
+                "southOrWestbound": -1
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -16,
+                "southOrWestbound": -25.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "Willesden Green ",
+        "groundLevel": 56,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": 50.30000000000001,
+                "southOrWestbound": 50.30000000000001
+            }
+        ]
+    }
+]

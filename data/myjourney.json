@@ -1,0 +1,311 @@
+[ 
+    {
+        "name": "Northolt ",
+        "groundLevel": 43,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 37.80000000000001,
+                "southOrWestbound": 37.80000000000001
+            }
+        ]
+    },
+    {
+        "name": "Greenford ",
+        "groundLevel": 22,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 32.19999999999999,
+                "southOrWestbound": 32.19999999999999
+            }
+        ]
+    },
+    {
+        "name": "Perivale ",
+        "groundLevel": 20,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 26.599999999999994,
+                "southOrWestbound": 26.599999999999994
+            }
+        ]
+    }, 
+    {
+        "name": "Hanger Lane ",
+        "groundLevel": 40,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 31.900000000000006,
+                "southOrWestbound": 31.900000000000006
+            }
+        ]
+    },
+    {
+        "name": "North Acton ",
+        "groundLevel": 33,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 24.400000000000006,
+                "southOrWestbound": 24.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "East Acton ",
+        "groundLevel": 12,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 17.900000000000006,
+                "southOrWestbound": 17.900000000000006
+            }
+        ]
+    },
+    {
+        "name": "White City ",
+        "groundLevel": 7,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 5,
+                "southOrWestbound": 5
+            }
+        ]
+    },
+    {
+        "name": "Shepherd's Bush",
+        "groundLevel": 6,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": -10.200000000000003,
+                "southOrWestbound": -10.200000000000003
+            }
+        ]
+    },
+    {
+        "name": "Holland Park ",
+        "groundLevel": 14,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": -4.799999999999997,
+                "southOrWestbound": -4.799999999999997
+            }
+        ]
+    },
+    {
+        "name": "Notting Hill Gate ",
+        "groundLevel": 28,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": -2.9000000000000057,
+                "southOrWestbound": 2.5999999999999943
+            },
+            {
+                "name": "Circle",
+                "northOrEastbound": 19.400000000000006,
+                "southOrWestbound": 19.400000000000006
+            },
+            {
+                "name": "District",
+                "northOrEastbound": 19.400000000000006,
+                "southOrWestbound": 19.400000000000006
+            }   
+        ]
+    },
+    {
+        "name": "Queensway ",
+        "groundLevel": 27,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 3.0999999999999943,
+                "southOrWestbound": 3.0999999999999943
+            }
+        ]
+    },
+    {
+        "name": "Lancaster Gate ",
+        "groundLevel": 18,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 2.5,
+                "southOrWestbound": 2.5
+            }
+        ]
+    },
+    {
+        "name": "Marble Arch ",
+        "groundLevel": 27,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 1.4000000000000057,
+                "southOrWestbound": 1.4000000000000057
+            }
+        ]
+    },
+    {
+        "name": "Bond Street ",
+        "groundLevel": 22,
+        "stationLines": [
+            {
+                "name": "Central",
+                "northOrEastbound": 1,
+                "southOrWestbound": 1
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -9,
+                "southOrWestbound": -9
+            }
+        ]
+    },
+    {
+        "name": "Green Park ",
+        "groundLevel": 18,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13,
+                "southOrWestbound": -13
+            },
+            {
+                "name": "Piccadilly",
+                "northOrEastbound": -8.5,
+                "southOrWestbound": -8.5
+            },
+            {
+                "name": "Victoria",
+                "northOrEastbound": -5.5,
+                "southOrWestbound": -4.700000000000003
+            }
+        ]
+    },
+    {
+        "name": "Westminster ",
+        "groundLevel": 6,
+        "stationLines": [
+            {
+                "name": "Circle",
+                "northOrEastbound": -1,
+                "southOrWestbound": -1
+            },
+            {
+                "name": "District",
+                "northOrEastbound": -1,
+                "southOrWestbound": -1
+            },
+            
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -16,
+                "southOrWestbound": -25.400000000000006
+            }
+        ]
+    },
+    {
+        "name": "Waterloo ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Bakerloo",
+                "northOrEastbound": -14.900000000000006,
+                "southOrWestbound": -11.799999999999997
+            },
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -26,
+                "southOrWestbound": -26
+            },
+            {
+                "name": "Northern",
+                "northOrEastbound": -17.200000000000003,
+                "southOrWestbound": -17.200000000000003
+            },
+            {
+                "name": "Waterloo & City",
+                "northOrEastbound": -1.7999999999999972,
+                "southOrWestbound": -1.7999999999999972
+            }
+        ]
+    },
+    {
+        "name": "Southwark ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -20.5,
+                "southOrWestbound": -20.5
+            }
+        ]
+    },
+    {
+        "name": "London Bridge ",
+        "groundLevel": 4,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -23.200000000000003,
+                "southOrWestbound": -23.200000000000003
+            },
+            {
+                "name": "Northern",
+                "northOrEastbound": -19.599999999999994,
+                "southOrWestbound": -19.599999999999994
+            }
+        ]
+    },
+    {
+        "name": "Bermondsey ",
+        "groundLevel": 2,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -12.5,
+                "southOrWestbound": -12.5
+            }
+        ]
+    },
+    {
+        "name": "Canada Water ",
+        "groundLevel": 5,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13.299999999999997,
+                "southOrWestbound": -13.299999999999997
+            }
+        ]
+    },
+    {
+        "name": "Canary Wharf ",
+        "groundLevel": 3,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -15.599999999999994,
+                "southOrWestbound": -15.599999999999994
+            }
+        ]
+    },
+    {
+        "name": "North Greenwich ",
+        "groundLevel": 2,
+        "stationLines": [
+            {
+                "name": "Jubilee",
+                "northOrEastbound": -13.5,
+                "southOrWestbound": -13.5
+            }
+        ]
+    }
+]
