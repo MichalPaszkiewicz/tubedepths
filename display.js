@@ -5,8 +5,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 37.80000000000001,
-                "southOrWestbound": 37.80000000000001
+                "northOrEastbound": 37.8,
+                "southOrWestbound": 37.8
             }
         ]
     },
@@ -16,8 +16,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 32.19999999999999,
-                "southOrWestbound": 32.19999999999999
+                "northOrEastbound": 32.2,
+                "southOrWestbound": 32.2
             }
         ]
     },
@@ -27,8 +27,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 26.599999999999994,
-                "southOrWestbound": 26.599999999999994
+                "northOrEastbound": 26.6,
+                "southOrWestbound": 26.6
             }
         ]
     }, 
@@ -38,8 +38,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 31.900000000000006,
-                "southOrWestbound": 31.900000000000006
+                "northOrEastbound": 31.9,
+                "southOrWestbound": 31.9
             }
         ]
     },
@@ -49,8 +49,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 24.400000000000006,
-                "southOrWestbound": 24.400000000000006
+                "northOrEastbound": 24.4,
+                "southOrWestbound": 24.4
             }
         ]
     },
@@ -60,8 +60,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 17.900000000000006,
-                "southOrWestbound": 17.900000000000006
+                "northOrEastbound": 17.9,
+                "southOrWestbound": 17.9
             }
         ]
     },
@@ -82,8 +82,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": -10.200000000000003,
-                "southOrWestbound": -10.200000000000003
+                "northOrEastbound": -10.2,
+                "southOrWestbound": -10.2
             }
         ]
     },
@@ -93,8 +93,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": -4.799999999999997,
-                "southOrWestbound": -4.799999999999997
+                "northOrEastbound": -4.8,
+                "southOrWestbound": -4.8
             }
         ]
     },
@@ -104,18 +104,18 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": -2.9000000000000057,
-                "southOrWestbound": 2.5999999999999943
+                "northOrEastbound": -2.9,
+                "southOrWestbound": 2.6
             },
             {
                 "name": "Circle",
-                "northOrEastbound": 19.400000000000006,
-                "southOrWestbound": 19.400000000000006
+                "northOrEastbound": 19.4,
+                "southOrWestbound": 19.4
             },
             {
                 "name": "District",
-                "northOrEastbound": 19.400000000000006,
-                "southOrWestbound": 19.400000000000006
+                "northOrEastbound": 19.4,
+                "southOrWestbound": 19.4
             }   
         ]
     },
@@ -125,8 +125,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 3.0999999999999943,
-                "southOrWestbound": 3.0999999999999943
+                "northOrEastbound": 3.13,
+                "southOrWestbound": 3.13
             }
         ]
     },
@@ -147,8 +147,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 1.4000000000000057,
-                "southOrWestbound": 1.4000000000000057
+                "northOrEastbound": 1.4,
+                "southOrWestbound": 1.4
             }
         ]
     },
@@ -185,7 +185,7 @@ var stationDepths = [
             {
                 "name": "Victoria",
                 "northOrEastbound": -5.5,
-                "southOrWestbound": -4.700000000000003
+                "southOrWestbound": -4.7
             }
         ]
     },
@@ -207,7 +207,7 @@ var stationDepths = [
             {
                 "name": "Jubilee",
                 "northOrEastbound": -16,
-                "southOrWestbound": -25.400000000000006
+                "southOrWestbound": -25.4
             }
         ]
     },
@@ -217,8 +217,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Bakerloo",
-                "northOrEastbound": -14.900000000000006,
-                "southOrWestbound": -11.799999999999997
+                "northOrEastbound": -14.9,
+                "southOrWestbound": -11.8
             },
             {
                 "name": "Jubilee",
@@ -227,13 +227,13 @@ var stationDepths = [
             },
             {
                 "name": "Northern",
-                "northOrEastbound": -17.200000000000003,
-                "southOrWestbound": -17.200000000000003
+                "northOrEastbound": -17.2,
+                "southOrWestbound": -17.2
             },
             {
                 "name": "Waterloo & City",
-                "northOrEastbound": -1.7999999999999972,
-                "southOrWestbound": -1.7999999999999972
+                "northOrEastbound": -1.82,
+                "southOrWestbound": -1.82
             }
         ]
     },
@@ -254,13 +254,13 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -23.200000000000003,
-                "southOrWestbound": -23.200000000000003
+                "northOrEastbound": -23.2,
+                "southOrWestbound": -23.2
             },
             {
                 "name": "Northern",
-                "northOrEastbound": -19.599999999999994,
-                "southOrWestbound": -19.599999999999994
+                "northOrEastbound": -19.6,
+                "southOrWestbound": -19.6
             }
         ]
     },
@@ -281,8 +281,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -13.299999999999997,
-                "southOrWestbound": -13.299999999999997
+                "northOrEastbound": -13.3,
+                "southOrWestbound": -13.3
             }
         ]
     },
@@ -292,8 +292,8 @@ var stationDepths = [
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -15.599999999999994,
-                "southOrWestbound": -15.599999999999994
+                "northOrEastbound": -15.6,
+                "southOrWestbound": -15.6
             }
         ]
     },

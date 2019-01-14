@@ -1,0 +1,10 @@
+{
+	"compilerOptions":	{
+		"target": "es5",
+		"out": "../search.js",
+		"sourceMap": false,
+		"declaration": false,
+		"module": "system",
+		"moduleResolution": "node"
+	}
+}

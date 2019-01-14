@@ -5,18 +5,18 @@
         "stationLines": [
             {
                 "name": "Bakerloo",
-                "northOrEastbound": 8.299999999999997,
-                "southOrWestbound": 5.099999999999994
+                "northOrEastbound": 8.3,
+                "southOrWestbound": 5.1
             },
             {
                 "name": "Hammersmith & City",
-                "northOrEastbound": 18.799999999999997,
-                "southOrWestbound": 18.900000000000006
+                "northOrEastbound": 18.8,
+                "southOrWestbound": 18.9
             },
             {
                 "name": "Jubilee",
-                "northOrEastbound": 4.299999999999997,
-                "southOrWestbound": 7.400000000000006
+                "northOrEastbound": 4.3,
+                "southOrWestbound": 7.4
             },
             {
                 "name": "Metropolitan",
@@ -58,8 +58,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -13.299999999999997,
-                "southOrWestbound": -13.299999999999997
+                "northOrEastbound": -13.3,
+                "southOrWestbound": -13.3
             }
         ]
     },
@@ -69,8 +69,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -15.599999999999994,
-                "southOrWestbound": -15.599999999999994
+                "northOrEastbound": -15.6,
+                "southOrWestbound": -15.6
             }
         ]
     },
@@ -91,18 +91,18 @@
         "stationLines": [
             {
                 "name": "Bakerloo",
-                "northOrEastbound": -11.799999999999997,
-                "southOrWestbound": -11.799999999999997
+                "northOrEastbound": -11.8,
+                "southOrWestbound": -11.8
             },
             {
                 "name": "Jubilee",
-                "northOrEastbound": -18.099999999999994,
-                "southOrWestbound": -18.099999999999994
+                "northOrEastbound": -18.1,
+                "southOrWestbound": -18.1
             },
             {
                 "name": "Northern",
-                "northOrEastbound": -8.400000000000006,
-                "southOrWestbound": -8.400000000000006
+                "northOrEastbound": -8.4,
+                "southOrWestbound": -8.4
             }
         ]
     },
@@ -112,8 +112,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 39.400000000000006,
-                "southOrWestbound": 39.400000000000006
+                "northOrEastbound": 39.4,
+                "southOrWestbound": 39.4
             }
         ]
     },
@@ -128,13 +128,13 @@
             },
             {
                 "name": "Hammersmith & City",
-                "northOrEastbound": 24.799999999999997,
-                "southOrWestbound": 24.799999999999997
+                "northOrEastbound": 24.8,
+                "southOrWestbound": 24.8
             },
             {
                 "name": "Jubilee",
-                "northOrEastbound": 24.799999999999997,
-                "southOrWestbound": 24.799999999999997
+                "northOrEastbound": 24.8,
+                "southOrWestbound": 24.8
             }
         ]
     },
@@ -144,8 +144,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 48.69999999999999,
-                "southOrWestbound": 48.69999999999999
+                "northOrEastbound": 48.7,
+                "southOrWestbound": 48.7
             }
         ]
     },
@@ -166,7 +166,7 @@
             {
                 "name": "Victoria",
                 "northOrEastbound": -5.5,
-                "southOrWestbound": -4.700000000000003
+                "southOrWestbound": -4.7
             }
         ]
     },
@@ -176,8 +176,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 52.19999999999999,
-                "southOrWestbound": 52.19999999999999
+                "northOrEastbound": 52.2,
+                "southOrWestbound": 52.2
             }
         ]
     },
@@ -187,8 +187,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 38.30000000000001,
-                "southOrWestbound": 38.30000000000001
+                "northOrEastbound": 38.3,
+                "southOrWestbound": 38.3
             }
         ]
     },
@@ -198,13 +198,13 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": -23.200000000000003,
-                "southOrWestbound": -23.200000000000003
+                "northOrEastbound": -23.2,
+                "southOrWestbound": -23.2
             },
             {
                 "name": "Northern",
-                "northOrEastbound": -19.599999999999994,
-                "southOrWestbound": -19.599999999999994
+                "northOrEastbound": -19.6,
+                "southOrWestbound": -19.6
             }
         ]
     },
@@ -214,8 +214,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 32.19999999999999,
-                "southOrWestbound": 32.19999999999999
+                "northOrEastbound": 32.2,
+                "southOrWestbound": 32.2
             }
         ]
     },
@@ -236,8 +236,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 51.19999999999999,
-                "southOrWestbound": 51.19999999999999
+                "northOrEastbound": 51.2,
+                "southOrWestbound": 51.2
             }
         ]
     },
@@ -258,8 +258,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 31.69999999999999,
-                "southOrWestbound": 31.19999999999999
+                "northOrEastbound": 31.7,
+                "southOrWestbound": 31.2
             }
         ]
     },
@@ -269,8 +269,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 76.80000000000001,
-                "southOrWestbound": 76.80000000000001
+                "northOrEastbound": 76.8,
+                "southOrWestbound": 76.8
             }
         ]
     },
@@ -280,8 +280,8 @@
         "stationLines": [
             {
                 "name": "Central",
-                "northOrEastbound": 7.200000000000003,
-                "southOrWestbound": 7.200000000000003
+                "northOrEastbound": 7.2,
+                "southOrWestbound": 7.2
             },
             {
                 "name": "Jubilee",
@@ -296,8 +296,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 40.099999999999994,
-                "southOrWestbound": 40.099999999999994
+                "northOrEastbound": 40.1,
+                "southOrWestbound": 40.1
             }
         ]
     },
@@ -307,8 +307,8 @@
         "stationLines": [
             {
                 "name": "Bakerloo",
-                "northOrEastbound": -14.900000000000006,
-                "southOrWestbound": -11.799999999999997
+                "northOrEastbound": -14.9,
+                "southOrWestbound": -11.8
             },
             {
                 "name": "Jubilee",
@@ -317,13 +317,13 @@
             },
             {
                 "name": "Northern",
-                "northOrEastbound": -17.200000000000003,
-                "southOrWestbound": -17.200000000000003
+                "northOrEastbound": -17.2,
+                "southOrWestbound": -17.2
             },
             {
                 "name": "Waterloo & City",
-                "northOrEastbound": -1.7999999999999972,
-                "southOrWestbound": -1.7999999999999972
+                "northOrEastbound": -1.82,
+                "southOrWestbound": -1.82
             }
         ]
     },
@@ -333,8 +333,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 36.69999999999999,
-                "southOrWestbound": 36.69999999999999
+                "northOrEastbound": 36.7,
+                "southOrWestbound": 36.7
             }
         ]
     },
@@ -344,13 +344,13 @@
         "stationLines": [
             {
                 "name": "District",
-                "northOrEastbound": 4.700000000000003,
-                "southOrWestbound": 4.700000000000003
+                "northOrEastbound": 4.7,
+                "southOrWestbound": 4.7
             },
             {
                 "name": "Jubilee",
-                "northOrEastbound": 1.2000000000000028,
-                "southOrWestbound": 1.2000000000000028
+                "northOrEastbound": 1.2,
+                "southOrWestbound": 1.2
             }
         ]
     },
@@ -377,7 +377,7 @@
             {
                 "name": "Jubilee",
                 "northOrEastbound": -16,
-                "southOrWestbound": -25.400000000000006
+                "southOrWestbound": -25.4
             }
         ]
     },
@@ -387,8 +387,8 @@
         "stationLines": [
             {
                 "name": "Jubilee",
-                "northOrEastbound": 50.30000000000001,
-                "southOrWestbound": 50.30000000000001
+                "northOrEastbound": 50.3,
+                "southOrWestbound": 50.3
             }
         ]
     }
