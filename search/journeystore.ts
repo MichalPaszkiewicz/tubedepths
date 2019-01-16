@@ -1,9 +1,19 @@
 export class JourneyStore{
     params: URLSearchParams = new URLSearchParams(window.location.search)
 
+    constructor(){
+        this.updateDisplay();
+    }
+    
+    updateDisplay(){
+        document.getElementById("fromDisplay").innerText = this.getFrom();
+        document.getElementById("toDisplay").innerText = this.getTo();
+    }
+    
     update(){
         var self = this;
         window.history.replaceState({}, '', `${location.pathname}?${self.params}`);
+        self.updateDisplay();
     }
     
     getFrom(){
