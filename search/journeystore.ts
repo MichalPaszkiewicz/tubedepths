@@ -6,8 +6,18 @@ export class JourneyStore{
     }
     
     updateDisplay(){
-        document.getElementById("fromDisplay").innerText = this.getFrom();
-        document.getElementById("toDisplay").innerText = this.getTo();
+        var from = <HTMLInputElement>document.getElementById("from");
+        from.value = document.getElementById("fromDisplay").innerText = this.getFrom();
+        
+        var to = <HTMLInputElement>document.getElementById("to");
+        to.value = document.getElementById("toDisplay").innerText = this.getTo();
+
+        var copy = <HTMLInputElement>document.getElementById("copy");
+        copy.value = `${location.pathname}?${this.params}`;
+        copy.onclick = () => {
+            copy.select();
+            document.execCommand("copy");
+        }
     }
     
     update(){
