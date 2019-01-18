@@ -95,7 +95,7 @@ function getShortestRouteBetweenVertices(v1: StationVertex, v2: StationVertex): 
             
         }        
 
-        if(usedVertices.length > 269){
+        if(usedVertices.length > 310){
             // gone through too many vertices
             return new Path([]);
         }

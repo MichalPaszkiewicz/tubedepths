@@ -1,3 +1,8 @@
+import {getShortestRoute} from "./getShortestRoute";
+import {draw} from "./draw";
+
+declare var platformDepths: any;
+
 export class JourneyStore{
     params: URLSearchParams = new URLSearchParams(window.location.search)
 
@@ -18,6 +23,9 @@ export class JourneyStore{
             copy.select();
             document.execCommand("copy");
         }
+
+        var route = getShortestRoute(this.getFrom(), this.getTo());
+        draw(route.map(r => platformDepths.filter(pd => pd.name == r)[0]));
     }
     
     update(){
