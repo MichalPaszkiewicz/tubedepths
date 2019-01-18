@@ -421,7 +421,7 @@ System.register("journeystore", ["getShortestRoute", "draw"], function (exports_
                     var to = document.getElementById("to");
                     to.value = document.getElementById("toDisplay").innerText = this.getTo();
                     var copy = document.getElementById("copy");
-                    copy.value = location.pathname + "?" + this.params;
+                    copy.value = location.host + location.pathname + "?" + this.params;
                     copy.onclick = function () {
                         copy.select();
                         document.execCommand("copy");
@@ -497,7 +497,7 @@ System.register("search", ["populatelist", "journeystore"], function (exports_5,
         execute: function () {
             journeyStore = new journeystore_1.JourneyStore();
             fromInput = document.getElementById("from");
-            fromInput.onkeydown = fromInput.onkeyup = function (e) {
+            fromInput.onkeydown = fromInput.onclick = fromInput.onkeyup = function (e) {
                 var pickedStations = platformDepths.filter(function (p) { return p.name.toLowerCase().indexOf((fromInput.value).toLowerCase()) > -1; });
                 populatelist_1.populateList("fromItems", pickedStations
                     .map(function (x) { return x.name; }), function (x) {
@@ -506,7 +506,7 @@ System.register("search", ["populatelist", "journeystore"], function (exports_5,
                 });
             };
             toInput = document.getElementById("to");
-            toInput.onkeydown = toInput.onkeyup = function (e) {
+            toInput.onkeydown = toInput.onclick = toInput.onkeyup = function (e) {
                 var pickedStations = platformDepths.filter(function (p) { return p.name.toLowerCase().indexOf((toInput.value).toLowerCase()) > -1; });
                 populatelist_1.populateList("toItems", pickedStations
                     .map(function (x) { return x.name; }), function (x) {

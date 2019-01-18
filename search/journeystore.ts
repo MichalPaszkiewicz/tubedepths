@@ -22,7 +22,7 @@ export class JourneyStore{
         to.value = document.getElementById("toDisplay").innerText = this.getTo();
 
         var copy = <HTMLInputElement>document.getElementById("copy");
-        copy.value = `${location.pathname}?${this.params}`;
+        copy.value = `${location.host + location.pathname}?${this.params}`;
         copy.onclick = () => {
             copy.select();
             document.execCommand("copy");
