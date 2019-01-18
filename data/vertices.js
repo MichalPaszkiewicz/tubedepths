@@ -13,7 +13,7 @@ var stationVertices = [
   },
   {
      "id":249
-    ,"name":"St. John's Wood"
+    ,"name":"St John's Wood"
   },
   {
      "id":234
@@ -293,7 +293,7 @@ var stationVertices = [
   },
   {
      "id":248
-    ,"name":"St. James's Park"
+    ,"name":"St James's Park"
   },
   {
      "id":60
@@ -781,7 +781,7 @@ var stationVertices = [
   },
   {
      "id":226
-    ,"name":"Shepherd's Bush (C)"
+    ,"name":"Shepherd's Bush"
   },
   {
      "id":3
@@ -833,7 +833,7 @@ var stationVertices = [
   },
   {
      "id":145
-    ,"name":"King's Cross St. Pancras"
+    ,"name":"King's Cross St Pancras"
   },
   {
      "id":48
@@ -925,7 +925,7 @@ var stationVertices = [
   },
   {
      "id":250
-    ,"name":"St. Paul's"
+    ,"name":"St Paul's"
   },
   {
      "id":231
@@ -981,7 +981,7 @@ var stationVertices = [
   },
   {
      "id":114
-    ,"name":"Harrow & Wealdston"
+    ,"name":"Harrow & Wealdstone"
   },
   {
      "id":171
