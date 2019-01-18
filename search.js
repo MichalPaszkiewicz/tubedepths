@@ -413,6 +413,9 @@ System.register("journeystore", ["getShortestRoute", "draw"], function (exports_
                     this.updateDisplay();
                 }
                 JourneyStore.prototype.updateDisplay = function () {
+                    if (this.getFrom() == null || this.getTo() == null) {
+                        return;
+                    }
                     var from = document.getElementById("from");
                     from.value = document.getElementById("fromDisplay").innerText = this.getFrom();
                     var to = document.getElementById("to");

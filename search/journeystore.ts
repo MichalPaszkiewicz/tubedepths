@@ -11,6 +11,10 @@ export class JourneyStore{
     }
     
     updateDisplay(){
+        if(this.getFrom() == null || this.getTo() == null){
+            return;
+        }
+
         var from = <HTMLInputElement>document.getElementById("from");
         from.value = document.getElementById("fromDisplay").innerText = this.getFrom();
         
