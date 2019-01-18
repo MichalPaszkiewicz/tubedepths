@@ -20,7 +20,6 @@ Missing from platform Depths
 - Crossharbour & London Arena
 - King George V
 - West India Quay
-- Heathrow Terminals 1-2-3
 - Poplar
 - Devons Road
 - Cyprus
@@ -43,8 +42,3 @@ Missing from platform Depths
 - Pontoon Dock
 - All Saints
 - East India
-
-Missing from StationVertices
------------------------------
-- Heathrow Airport Terminal 1
-- Heathrow Terminal 5
