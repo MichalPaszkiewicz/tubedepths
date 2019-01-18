@@ -69,6 +69,11 @@ System.register("draw", [], function (exports_1, context_1) {
             ctx.closePath();
             ctx.strokeStyle = "black";
             ctx.setLineDash([]);
+            ctx.beginPath();
+            ctx.fillStyle = "blue";
+            ctx.fillText("Sea", 20, height / 2 + 13);
+            ctx.fillText("Level", 20, height / 2 + 28);
+            ctx.closePath();
         }
         // function getMatchingZone(station1, station2){
         //     var sd1 = getStationDetails(station1.name);
@@ -130,6 +135,10 @@ System.register("draw", [], function (exports_1, context_1) {
             ctx.fillStyle = "rgba(169, 86, 54, 0.4)";
             ctx.lineWidth = 10;
             ctx.moveTo(0, height / 2 - normalisationConstant * sd[0].groundLevel);
+            if (sd[0].groundLevel < maxNum / 10) {
+                ctx.fillText("Ground", 20, height / 2 - normalisationConstant * sd[0].groundLevel - 28);
+                ctx.fillText("Level", 20, height / 2 - normalisationConstant * sd[0].groundLevel - 13);
+            }
             sd.forEach(function (x) {
                 ctx.lineTo(iterator * seperatorLength, height / 2 - normalisationConstant * x.groundLevel);
                 ctx.fillText(x.groundLevel, iterator * seperatorLength, height / 2 - normalisationConstant * x.groundLevel - 10);
@@ -144,9 +153,13 @@ System.register("draw", [], function (exports_1, context_1) {
             ctx.closePath();
             ctx.strokeStyle = "black";
             iterator = 1;
+            ctx.fillStyle = "white";
+            if (sd[0].groundLevel > maxNum / 10) {
+                ctx.fillText("Ground", 20, height / 2 - normalisationConstant * sd[0].groundLevel + 13);
+                ctx.fillText("Level", 20, height / 2 - normalisationConstant * sd[0].groundLevel + 28);
+            }
             sd.forEach(function (x) {
                 if (x.groundLevel > 10) {
-                    ctx.fillStyle = "white";
                     ctx.fillText(x.groundLevel, iterator * seperatorLength, height / 2 - normalisationConstant * x.groundLevel + 20);
                 }
                 iterator++;
@@ -289,8 +302,8 @@ System.register("draw", [], function (exports_1, context_1) {
             ctx.setLineDash([]);
         }
         writeStationNames(context, stationDepths);
-        drawSeaLevel(context);
         drawGroundLevel(context, stationDepths);
+        drawSeaLevel(context);
         drawJourney(context, stationDepths);
         drawDepths(context, stationDepths);
     }
