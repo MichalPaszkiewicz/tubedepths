@@ -3,13 +3,17 @@
 </head>
 <body>
     <h1>Train depths</h1>
-    <p>A tool for figuring out how deep your journey takes you underground.</p>
+    <p>
+        A tool for figuring out how deep your journey takes you underground on the London Underground. 
+        Unfortunately not all routes are available. 
+        The route is chosen by least amount of stops rather than shortest distance or time, so it might not follow your usual path between stations. 
+        All numbers given in metres above sea level.</p>
     <input id="from" />
     <ul id="fromItems"></ul>
     <input id="to" />
     <ul id="toItems"></ul>
     <p class="journey-description">
-		Platform depths from <span class="location-name" id="fromDisplay"></span> to <span class="location-name" id="toDisplay"></span>
+		Platform elevations from <b class="location-name" id="fromDisplay"></b> to <b class="location-name" id="toDisplay"></b> (metres)
     </p>
     <div style="overflow-x: auto">
         <canvas id="my-canvas" />

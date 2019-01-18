@@ -1,4 +1,14 @@
 var stationEdges = [
+   {
+      "id1":82,
+      "id2":83,
+      "line":"Walk"
+   }, 
+   {
+      "id1":82,
+      "id2":163,
+      "line":"Bakerloo"
+   },
   {
      "id1":11,
      "id2":163,
@@ -17,11 +27,6 @@ var stationEdges = [
   {
      "id1":49,
      "id2":197,
-     "line":"Bakerloo"
-  },
-  {
-     "id1":82,
-     "id2":163,
      "line":"Bakerloo"
   },
   {
@@ -941,9 +946,19 @@ var stationEdges = [
   },
   {
      "id1":150,
-     "id2":227,
+     "id2":340,
      "line":"Hammersmith & City"
   },
+  {
+   "id1":340,
+   "id2":227,
+   "line":"Hammersmith & City"
+},
+{
+   "id1":340,
+   "id2":296,
+   "line":"Walk"
+},
   {
      "id1":156,
      "id2":167,
@@ -1445,14 +1460,19 @@ var stationEdges = [
      "line":"Northern"
   },
   {
-     "id1":89,
+     "id1":899,
      "id2":170,
      "line":"Northern"
   },
   {
-     "id1":89,
+     "id1":899,
      "id2":277,
      "line":"Northern"
+  },
+  {
+      "id1":89,
+      "id2":899,
+      "line":"Walk"
   },
   {
      "id1":93,
@@ -1690,6 +1710,11 @@ var stationEdges = [
      "line":"Piccadilly"
   },
   {
+   "id1":117,
+   "id2":341,
+   "line":"Piccadilly"
+},
+  {
      "id1":125,
      "id2":134,
      "line":"Piccadilly"
@@ -1869,6 +1894,22 @@ var stationEdges = [
      "id2":279,
      "line":"Waterloo & City"
   },
+  {
+     "id1":13,
+     "id2":166,
+     "line":"Walk"
+  },
+  {
+     "id1":90,
+     "id2":89,
+     "line":"Walk"
+  },
+  {
+   "id1":90,
+   "id2":899,
+   "line":"Walk"
+   },
+     
   {
      "id1":4,
      "id2":70,

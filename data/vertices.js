@@ -245,7 +245,11 @@ var stationVertices = [
   },
   {
      "id":89
-    ,"name":"Euston"
+    ,"name":"Euston City Branch"
+  },
+  {
+      "id":899,
+      "name":"Euston Charing X Branch"
   },
   {
      "id":133
@@ -604,6 +608,10 @@ var stationVertices = [
     ,"name":"Heathrow Terminal 4"
   },
   {
+    "id":341,
+    "name": "Heathrow Terminal 5"
+  },
+  {
      "id":281
     ,"name":"Wembley Central"
   },
@@ -860,6 +868,10 @@ var stationVertices = [
     ,"name":"Latimer Road"
   },
   {
+    "id":340,
+    "name": "Wood Lane"
+  },
+  {
      "id":95
     ,"name":"Finsbury Park"
   },
@@ -1033,7 +1045,7 @@ var stationVertices = [
   },
   {
      "id":82
-    ,"name":"Edgware Road (B)"
+    ,"name":"Edgware Road (Bakerloo)"
   },
   {
      "id":214
@@ -1197,7 +1209,7 @@ var stationVertices = [
   },
   {
      "id":227
-    ,"name":"Shepherd's Bush (H)"
+    ,"name":"Shepherd's Bush Market"
   },
   {
      "id":122
@@ -1205,7 +1217,7 @@ var stationVertices = [
   },
   {
      "id":83
-    ,"name":"Edgware Road (C)"
+    ,"name":"Edgware Road (Circle)"
   },
   {
      "id":215

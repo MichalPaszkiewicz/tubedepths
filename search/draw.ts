@@ -74,7 +74,7 @@ function drawSeaLevel(ctx){
     ctx.setLineDash([8,3,2,3]);
     ctx.moveTo(0, height/2);
     ctx.lineTo(width, height / 2);
-    ctx.stroke();
+    //ctx.stroke();
     ctx.closePath();
     ctx.strokeStyle = "black";
     ctx.setLineDash([]);
@@ -140,24 +140,38 @@ function drawSeaLevel(ctx){
 //     ctx.closePath();
 // }
 
-function drawGroundLevel(ctx, sd){
+function drawGroundLevel(ctx: CanvasRenderingContext2D, sd){
     //drawZones(ctx, sd);
 
     var iterator = 1;
     ctx.beginPath();
-    ctx.strokeStyle = "brown";
-    ctx.setLineDash([5,3]);
+    //ctx.strokeStyle = "rgba(169, 86, 54, 0.3)";
+    ctx.fillStyle = "rgba(169, 86, 54, 0.4)";
+    ctx.lineWidth = 10;
     ctx.moveTo(0, height/2 - normalisationConstant * sd[0].groundLevel);
     sd.forEach(x => {
         ctx.lineTo(iterator * seperatorLength, height/2 - normalisationConstant * x.groundLevel);
+        ctx.fillText(x.groundLevel, iterator * seperatorLength, height/2 - normalisationConstant * x.groundLevel - 10);
         iterator++;
     });
     ctx.lineTo(width, height / 2 - normalisationConstant * sd[sd.length - 1].groundLevel);
-    
-    ctx.stroke();
+    ctx.lineTo(width, height / 2);
+    ctx.lineTo(0, height/2);
+    ctx.lineTo(0, height/ 2 - normalisationConstant * sd[0].groundLevel);
+
+    //ctx.stroke();
+    ctx.fill();
     ctx.closePath();
     ctx.strokeStyle = "black";
-    ctx.setLineDash([]);
+
+    iterator = 1;
+    sd.forEach(x => {
+        if(x.groundLevel > 10){
+            ctx.fillStyle = "white";
+            ctx.fillText(x.groundLevel, iterator * seperatorLength, height/2 - normalisationConstant * x.groundLevel + 20);
+        }
+        iterator++;
+    });
 }
 
 function getColour(line){
@@ -200,6 +214,30 @@ function getPlatformsWithLines(station, lines){
     return platforms;
 }
 
+function drawFoot(ctx: CanvasRenderingContext2D, x, y, reverse){
+    var constant = 0.5;
+    var reverseVal = reverse ? -1 : 1;
+    ctx.beginPath();
+    ctx.strokeStyle="black";
+    ctx.fillStyle="black";
+    ctx.moveTo(x, y);
+    ctx.lineTo(x + reverseVal * 20 * constant, y - 10 * constant);
+    ctx.bezierCurveTo(x + reverseVal * 20 * constant, y - 80 * constant, x - reverseVal * 21 * constant, y -60 * constant, x, y);
+    //ctx.stroke()
+    ctx.fill();
+    ctx.closePath();
+
+    ctx.beginPath();
+    ctx.strokeStyle="black";
+    ctx.fillStyle="black";
+    ctx.moveTo(x + reverseVal * 5 * constant, y + 10 * constant);
+    ctx.bezierCurveTo(x + reverseVal * 12 * constant, y + 6 * constant, x + reverseVal* 13 * constant, y + 5 * constant,x + reverseVal * 20 * constant, y + 4 * constant);
+    ctx.bezierCurveTo(x + reverseVal * 35 * constant, y + 30 * constant,x+ reverseVal * 4 * constant, y + 29 * constant, x + reverseVal * 5 * constant, y+10 * constant);
+    //ctx.stroke()
+    ctx.fill();
+    ctx.closePath();
+}
+
 function drawJourney(ctx, sd){
     ctx.setLineDash([]);
     ctx.lineWidth = 5;
@@ -226,6 +264,14 @@ function drawJourney(ctx, sd){
                 ctx.closePath();    
             }
         }
+
+        if(ml.length == 0){
+            drawFoot(ctx, (i + 1/4) * seperatorLength, height/2 + 85, false);
+            drawFoot(ctx, (i + 2/3) * seperatorLength, height/2 + 45, true);
+            drawFoot(ctx, (i + 1/4) * seperatorLength + 2, height/2, false);
+            drawFoot(ctx, (i + 2/3) * seperatorLength + 6, height/2 - 40, true);
+            drawFoot(ctx, (i + 1/4) * seperatorLength + 7, height/2 - 80, false);
+        }        
     }
     ctx.lineWidth = 1;
 }
@@ -237,18 +283,20 @@ function drawPlatform(ctx, x, y, colour, hasl, leftText, gl){
     ctx.arc(x, y, platformSize, 0,2*Math.PI);   
     ctx.fill();
     if(leftText){
-        ctx.textAlign = "right";
-        ctx.fillText(~~hasl, x - platformSize*1.4, y + platformSize / 2);
-        ctx.stroke();
+        // ctx.textAlign = "right";   
+        // ctx.stroke();
+        // ctx.fillStyle="black";
+        // ctx.fillText(~~hasl, x - platformSize*1.4, y + platformSize / 2);
     }
     else{
-        ctx.textAlign = "left";
-        ctx.fillText(~~hasl, x + platformSize*1.4, y + platformSize / 2);
-        ctx.stroke();
+        // ctx.textAlign = "left";
+        // ctx.stroke();
+        // ctx.fillStyle="black";
+        // ctx.fillText(~~hasl, x + platformSize*1.4, y + platformSize / 2);
     }
     ctx.fillStyle="white";
     ctx.textAlign = "center";    
-    ctx.fillText(~~(hasl - gl), x, y + platformSize / 2 - 2);
+    ctx.fillText(~~(hasl), x, y + platformSize / 2 - 2);
     ctx.closePath();         
 }
 
