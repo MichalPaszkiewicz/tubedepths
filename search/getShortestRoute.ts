@@ -105,6 +105,9 @@ function getShortestRouteBetweenVertices(v1: StationVertex, v2: StationVertex): 
 }
 
 export function getShortestRoute(station1: string, station2: string): string[]{
+    if(station1  == station2){
+        return [station1];
+    }
     var v1 = findStationVertexFromName(station1);
     var v2 = findStationVertexFromName(station2);
     return getShortestRouteBetweenVertices(v1, v2).toStringArray();

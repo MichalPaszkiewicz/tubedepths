@@ -376,6 +376,9 @@ System.register("getShortestRoute", [], function (exports_2, context_2) {
         }
     }
     function getShortestRoute(station1, station2) {
+        if (station1 == station2) {
+            return [station1];
+        }
         var v1 = findStationVertexFromName(station1);
         var v2 = findStationVertexFromName(station2);
         return getShortestRouteBetweenVertices(v1, v2).toStringArray();
