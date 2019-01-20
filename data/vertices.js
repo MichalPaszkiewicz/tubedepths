@@ -447,10 +447,10 @@ var stationVertices = [
      "id":124
     ,"name":"Highgate"
   },
-  {
-     "id":225
-    ,"name":"Shadwell"
-  },
+  // {
+  //    "id":225
+  //   ,"name":"Shadwell"
+  // },
   {
      "id":77
     ,"name":"East Finchley"

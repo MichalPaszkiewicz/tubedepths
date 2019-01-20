@@ -3,7 +3,7 @@ var stationEdges = [
       "id1":82,
       "id2":83,
       "line":"Walk"
-   }, 
+   },
    {
       "id1":82,
       "id2":163,
@@ -829,16 +829,16 @@ var stationEdges = [
      "id2":276,
      "line":"East London"
   },
-  {
-     "id1":225,
-     "id2":276,
-     "line":"East London"
-  },
-  {
-     "id1":225,
-     "id2":295,
-     "line":"East London"
-  },
+//   {
+//      "id1":225,
+//      "id2":276,
+//      "line":"East London"
+//   },
+//   {
+//      "id1":225,
+//      "id2":295,
+//      "line":"East London"
+//   },
   {
      "id1":228,
      "id2":295,
@@ -1909,184 +1909,185 @@ var stationEdges = [
    "id2":899,
    "line":"Walk"
    },
-     
-  {
-     "id1":4,
-     "id2":70,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":4,
-     "id2":201,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":13,
-     "id2":225,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":19,
-     "id2":97,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":20,
-     "id2":65,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":20,
-     "id2":217,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":27,
-     "id2":79,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":27,
-     "id2":201,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":32,
-     "id2":70,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":32,
-     "id2":204,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":42,
-     "id2":120,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":42,
-     "id2":292,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":43,
-     "id2":79,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":43,
-     "id2":219,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":61,
-     "id2":171,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":61,
-     "id2":238,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":63,
-     "id2":203,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":63,
-     "id2":219,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":64,
-     "id2":106,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":64,
-     "id2":135,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":65,
-     "id2":97,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":69,
-     "id2":86,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":69,
-     "id2":106,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":86,
-     "id2":152,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":120,
-     "id2":238,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":135,
-     "id2":171,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":155,
-     "id2":225,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":155,
-     "id2":284,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":201,
-     "id2":284,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":201,
-     "id2":292,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":203,
-     "id2":217,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":204,
-     "id2":247,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":225,
-     "id2":262,
-     "line":"Docklands Light Railway"
-  },
-  {
-     "id1":284,
-     "id2":292,
-     "line":"Docklands Light Railway"
-  },
+
+//   {
+//      "id1":4,
+//      "id2":70,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":4,
+//      "id2":201,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":13,
+//      "id2":225,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":19,
+//      "id2":97,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":20,
+//      "id2":65,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":20,
+//      "id2":217,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":27,
+//      "id2":79,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":27,
+//      "id2":201,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":32,
+//      "id2":70,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":32,
+//      "id2":204,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":42,
+//      "id2":120,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":42,
+//      "id2":292,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":43,
+//      "id2":79,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":43,
+//      "id2":219,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":61,
+//      "id2":171,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":61,
+//      "id2":238,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":63,
+//      "id2":203,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":63,
+//      "id2":219,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":64,
+//      "id2":106,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":64,
+//      "id2":135,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":65,
+//      "id2":97,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":69,
+//      "id2":86,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":69,
+//      "id2":106,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":86,
+//      "id2":152,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":120,
+//      "id2":238,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":135,
+//      "id2":171,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":155,
+//      "id2":225,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":155,
+//      "id2":284,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":201,
+//      "id2":284,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":201,
+//      "id2":292,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":203,
+//      "id2":217,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":204,
+//      "id2":247,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":225,
+//      "id2":262,
+//      "line":"Docklands Light Railway"
+//   },
+//   {
+//      "id1":284,
+//      "id2":292,
+//      "line":"Docklands Light Railway"
+//   },
   {
      "id1":95,
      "id2":160,
      "line":"Piccadilly"
-  },
-  {
-     "id1":43,
-     "id2":304,
-     "line":"Docklands Light Railway"
-  }]
+  }
+//   {
+//      "id1":43,
+//      "id2":304,
+//      "line":"Docklands Light Railway"
+//   }
+]
