@@ -1,11 +1,11 @@
 # tubedepths
 displaying depths of any London Underground journey
 
+## demo
+http://www.michalpaszkiewicz.co.uk/blog/tubedepths/
+
 ## todo:
-- Connect search to draw
-- Share button
-- Styling
-- Clear up data, e.g. edgware road
+- Add DLR data
 
 Missing from platform Depths
 ---------------------------------
