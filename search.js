@@ -176,7 +176,8 @@ System.register("draw", [], function (exports_1, context_1) {
                 { line: "Northern", colour: "black" },
                 { line: "Piccadilly", colour: "blue" },
                 { line: "Victoria", colour: "deepskyblue" },
-                { line: "Waterloo & City", colour: "turquoise" }];
+                { line: "Waterloo & City", colour: "turquoise" },
+                { line: "Elizabeth", colour: "magenta"}];
             return lineColours.filter(function (lc) { return lc.line == line; })[0].colour;
         }
         function matchLines(station1, station2) {

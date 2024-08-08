@@ -2084,10 +2084,195 @@ var stationEdges = [
      "id1":95,
      "id2":160,
      "line":"Piccadilly"
-  }
+  },
 //   {
 //      "id1":43,
 //      "id2":304,
 //      "line":"Docklands Light Railway"
 //   }
+  {
+   "id1": 904,
+   "id2": 905,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 905,
+   "id2": 906,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 906,
+   "id2": 907,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 907,
+   "id2": 908,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 908,
+   "id2": 909,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 909,
+   "id2": 910,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 910,
+   "id2": 911,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 911,
+   "id2": 912,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 912,
+   "id2": 913,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 913,
+   "id2": 914,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 914,
+   "id2": 915,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 915,
+   "id2": 916,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 916,
+   "id2": 72,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 72,
+   "id2": 928,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 928,
+   "id2": 193,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 193,
+   "id2": 28,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 28,
+   "id2": 259,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 259,
+   "id2": 92,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 92,
+   "id2": 156,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 156,
+   "id2": 295,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 295,
+   "id2": 42,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 42,
+   "id2": 63,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 63,
+   "id2": 901,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 901,
+   "id2": 903,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 156,
+   "id2": 247,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 247,
+   "id2": 917,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 917,
+   "id2": 918,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 918,
+   "id2": 929,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 929,
+   "id2": 919,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 919,
+   "id2": 920,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 920,
+   "id2": 921,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 921,
+   "id2": 922,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 922,
+   "id2": 923,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 923,
+   "id2": 924,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 924,
+   "id2": 925,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 925,
+   "id2": 926,
+   "line":"Elizabeth"
+  },
+  {
+   "id1": 926,
+   "id2": 927,
+   "line":"Elizabeth"
+  },
 ]
